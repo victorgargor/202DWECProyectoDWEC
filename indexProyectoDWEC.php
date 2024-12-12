@@ -14,19 +14,19 @@
         <nav>
             <h2>TEMA 1 SELECCIÓN DE ARQUITECTURAS Y HERRAMIENTAS DE PROGRAMACIÓN</h2>
             <ul>
-                <li><a href="/202DWECProyectoTema1/indexProyectoTema1.php">Ejercicios Tema 1</a></li>
+                <li><a href="">Ejercicios Tema 1</a></li>
             </ul>
             <h2>TEMA 2 MANEJO DE LA SINTAXIS DEL LENGUAJE</h2>
             <ul>
-                <li><a href="/202DWECProyectoTema2/indexProyectoTema2.php">Ejercicios Tema 2</a></li>
+                <li><a href="indexTema2.php">Ejercicios Tema 2</a></li>
             </ul>
             <h2>TEMA 3 OBJETOS, FUNCIONES Y ESTRUCTURAS</h2>
             <ul>
-                <li><a href="/202DWECProyectoTema3/indexProyectoTema3.php">Ejercicios Tema 3</a></li>
+                <li><a href="indexTema3.php">Ejercicios Tema 3</a></li>
             </ul>
             <h2>TEMA 4 EL MODELO DE OBJETOS DEL DOCUMENTO (DOM Y BOM)</h2>
             <ul>
-                <li><a href="/202DWECProyectoTema4/indexProyectoTema4.php">Ejercicios Tema 4</a></li>
+                <li><a href="indexTema4.php">Ejercicios Tema 4</a></li>
             </ul>           
         </nav>       
     </main>
