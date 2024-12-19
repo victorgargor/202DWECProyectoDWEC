@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorrer Arrays con Asteriscos</title>
+    <style>
+        #output {
+            margin-top: 20px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introducir valores del Array</h1>
+    <label for="valoresArray">Introduce los valores del array (separados por coma): </label>
+    <input type="text" id="valoresArray">
+    <br/>
+
+    <h2>Escoge un método para recorrer el array</h2>
+    <select id="metodo">
+        <option value="for">for</option>
+        <option value="forEach">forEach</option>
+        <option value="map">map</option>
+        <option value="forOf">for...of</option>
+    </select>
+
+    <button id="ejecutar">Ejecutar</button>
+    <div id="salida"></div>
+
+    <script src="3.Practica-11.js"></script>
+</body>
+</html>
+

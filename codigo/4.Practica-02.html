@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica BOM - Navigator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 80%;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Práctica del objeto Navigator</h1>
+    <p>Haz clic en los botones para ver la información del navegador:</p>
+    
+    <button onclick="mostrarPlugins()">Recorrer Plugins Instalados</button>
+    <button onclick="cookiesHabilitadas()">Cookies Habilitadas</button>
+    <button onclick="mostrarLenguaje()">Lenguaje del Navegador</button>
+    <button onclick="verificarConexion()">¿Está el navegador online?</button>
+    <button onclick="mostrarVersion()">Versión del Navegador</button>
+    
+    <div class="salida" id="salida"></div>
+    <script src="4.Practica-02.js"></script>
+</body>
+</html>

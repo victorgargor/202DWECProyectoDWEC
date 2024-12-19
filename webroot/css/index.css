@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 table {
@@ -42,11 +43,20 @@ a:hover {
     text-decoration: underline;
 }
 
-img{
+img {
     width: 40px;
     height: 40px;
 }
 
+/* Contenedor de la tabla con scroll */
+.table-container {
+    max-height: 70vh; /* Ajusta la altura máxima de la tabla */
+    overflow-y: auto; /* Habilita el scroll vertical */
+    border: 1px solid #e1e4e8; /* Borde alrededor de la tabla, opcional */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* Estilo para el encabezado */
 header {
     background-color: #24292f;
     padding: 20px;
@@ -66,8 +76,8 @@ main {
 }
 
 nav {
-    max-height: 70vh; 
-    overflow: hidden; 
+    max-height: 70vh;
+    overflow: hidden;
 }
 
 nav h2 {
@@ -80,14 +90,15 @@ ul {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; 
-    gap: 30px; 
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 ul li {
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
+/* Estilo para el pie de página */
 footer {
     background-color: #24292f;
     padding: 20px;
@@ -115,11 +126,12 @@ footer img {
     vertical-align: middle;
 }
 
+/* Estilos responsivos */
 @media (max-width: 768px) {
     header h1 {
         font-size: 20px;
     }
-    
+
     nav h2 {
         font-size: 16px;
     }

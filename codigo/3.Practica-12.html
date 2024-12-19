@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Arrays Aleatorios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, input, button {
+            margin-bottom: 10px;
+            display: block;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+        }
+        .array {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generador de Arrays Aleatorios</h1>
+    <label for="cantidad">Cantidad de números:</label>
+    <input type="number" id="cantidad" min="1"/>
+    <button id="generar">Generar Array</button>
+
+    <div class="result">
+        <h2>Array Generado:</h2>
+        <p id="arrayOriginal" class="array"></p>
+
+        <h2>Array Ordenado:</h2>
+        <p id="arrayOrdenado" class="array"></p>
+
+        <h2>Array de Pares:</h2>
+        <p id="pares" class="array"></p>
+
+        <h2>Array de Impares:</h2>
+        <p id="impares" class="array"></p>
+    </div>
+
+    <script src="3.Practica-12.js"></script>
+</body>
+</html>
+

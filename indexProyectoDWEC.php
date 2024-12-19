@@ -14,7 +14,7 @@
         <nav>
             <h2>TEMA 1 SELECCIÓN DE ARQUITECTURAS Y HERRAMIENTAS DE PROGRAMACIÓN</h2>
             <ul>
-                <li><a href="">Ejercicios Tema 1</a></li>
+                <li><a target="blank" href="doc/practicasDWEC1VictorGarcia.pdf">Ejercicios Tema 1</a></li>
             </ul>
             <h2>TEMA 2 MANEJO DE LA SINTAXIS DEL LENGUAJE</h2>
             <ul>

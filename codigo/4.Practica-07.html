@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificación de Texto con DOM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #texto {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            min-height: 40px;
+        }
+        .boton {
+            margin: 10px 5px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .boton:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Modificación de Texto con DOM</h2>
+
+    <label for="nuevoTexto">Introduce el nuevo texto:</label>
+    <input type="text" id="nuevoTexto" placeholder="Nuevo texto...">
+
+    <div>
+        <button class="boton" id="botonEtiqueta1">Cambiar por etiqueta - textContent</button>
+        <button class="boton" id="botonEtiqueta2">Cambiar por etiqueta - innerText</button>
+        <button class="boton" id="botonEtiqueta3">Cambiar por etiqueta - innerHTML</button>
+    </div>
+    
+    <div>
+        <button class="boton" id="botonId1">Cambiar por id - textContent</button>
+        <button class="boton" id="botonId2">Cambiar por id - innerText</button>
+        <button class="boton" id="botonId3">Cambiar por id - innerHTML</button>
+    </div>
+
+    <p id="texto">Este es un párrafo de ejemplo. Aquí aparecerá el texto modificado.</p>
+
+    <script src="4.Practica-07.js"></script>
+</body>
+</html>
+

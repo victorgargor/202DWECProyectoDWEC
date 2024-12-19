@@ -1,0 +1,31 @@
+.parrafo33 {
+    color: rgb(211, 41, 138);
+    border: dotted;
+}
+
+.div3Alt {
+    width: 600px;
+    height: 200px;
+    border: solid 5px rgb(96, 170, 178);
+    background-color: rgb(96, 170, 178);
+    position: relative;
+    margin-top: 5px;
+}
+
+.div1, .div2, .div3 {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.div1 {
+    background-color: lightblue;
+}
+
+.div2 {
+    background-color: lightgreen;
+}
+
+.div3 {
+    background-color: lightcoral;
+}

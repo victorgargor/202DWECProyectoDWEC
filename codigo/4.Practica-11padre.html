@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Padre</title>  
+    <style>
+        /* Estilo para la página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        /* Estilo para el formulario */
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-size: 14px;
+            margin-bottom: 6px;
+            display: inline-block;
+            color: #555;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* Estilo para los botones */
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilo para el contenedor de los botones */
+        .button-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Página Padre</h1>
+    <form id="formulario">
+        <label for="campo1">Nombre:</label>
+        <input type="text" id="campo1" name="campo1">
+        <br>
+        <label for="campo2">Apellidos:</label>
+        <input type="text" id="campo2" name="campo2">
+        <br>
+        <label for="campo3">Dirección:</label>
+        <input type="text" id="campo3" name="campo3">
+        <br>
+        <label for="campo4">Email:</label>
+        <input type="text" id="campo4" name="campo4">
+        <br>
+        <label for="campo5">Nº de Teléfono:</label>
+        <input type="text" id="campo5" name="campo5">
+        <br>
+        <label for="campo6">Comentarios:</label>
+        <input type="text" id="campo6" name="campo6" style="height: 150px;" disabled>
+        <br>
+    </form>
+    <button id="btnAbrirHijo">Abrir Página Hijo</button>
+    <button id="btnEnviarTexto">Enviar texto a hijo</button>
+    <script src="4.Practica-11.js"></script>
+</body>
+</html>
